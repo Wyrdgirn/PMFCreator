@@ -27,7 +27,7 @@ LIB_RELEASE = $(LIB)
 LDFLAGS_RELEASE = $(LDFLAGS) -static-libstdc++ -static-libgcc -static
 OBJDIR_RELEASE = .objs
 DEP_RELEASE = 
-OUT_RELEASE = bin/pmfcreater.exe
+OUT_RELEASE = bin/pmfcreator.exe
 
 OBJ_RELEASE = $(OBJDIR_RELEASE)/src/main.o
 
